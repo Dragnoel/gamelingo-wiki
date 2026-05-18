@@ -1,0 +1,64 @@
+{
+  "id": "00014_senjou",
+  "headword_jp": "{戦|せん}{場|じょう}",
+  "headword_en": "battlefield",
+  "reading": "せんじょう",
+  "romaji": "senjou",
+  "kanji_form": "戦場",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the playing surface representing the battlefield; the zone of play",
+      "gloss_jp": "{ゲーム|げーむ}の{プレイ|ぷれい}{エリア|えりあ}全{体|たい}；{対|たい}{戦|せん}が{行|おこな}われる{空|くう}{間|かん}",
+      "explanation_en": "The entire play area (table surface or defined zone) on which units are deployed and combat occurs.",
+      "implicit_notes": "戦場 frames the entire game area as a single field of battle. It is a classical Japanese literary and military term, carrying historical and dramatic weight.",
+      "orthography_notes": "戦場: 戦 (battle) + 場 (place/field). Classical Japanese military and literary term. Attested in Goo dictionary as a general word. JWC documentation uses 戦場 consistently. No WH-specific concern.",
+      "game_setting_notes": "Universal in wargame contexts. The docx notes this term is already in use and has classical Japanese military precedent with no Warhammer connection."
+    }
+  ],
+  "usage_jp": "{戦|せん}{場|じょう}に{ユニット|ゆにっと}を{配|はい}{置|ち}する (deploy units on the battlefield); {戦|せん}{場|じょう}の{中|ちゅう}{央|おう} (center of the battlefield)",
+  "usage_en": "\"battlefield\", \"battle map\", or \"playing field\".",
+  "comparative_notes": "戦場 is the standard term for the playing surface in Japanese wargame documentation (JWC). No alternative is required.",
+  "examples": [
+    {
+      "id": "00014_senjou_ex1",
+      "japanese": "{戦|せん}{場|じょう}の{中|ちゅう}{央|おう}を{制|せい}{圧|あつ}する。",
+      "english": "Control the center of the battlefield.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00013_ichi",
+      "note": "位置 — a unit's location within the 戦場"
+    },
+    {
+      "type": "related",
+      "id": "00019_chikei",
+      "note": "地形 — terrain that defines the 戦場's features"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "00022_shahei",
+  "headword_jp": "{遮|しゃ}{蔽|へい}",
+  "headword_en": "cover / hindering terrain",
+  "reading": "しゃへい",
+  "romaji": "shahei",
+  "kanji_form": "遮蔽",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "障害",
+      "reading": "しょうがい",
+      "note": "Fully neutral alternative meaning obstacle/impediment. Used in JWC documentation. No WH association."
+    }
+  ],
+  "part_of_speech": "noun / verb stem",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "terrain or a unit that screens or obstructs, providing a defensive bonus to units behind it",
+      "gloss_jp": "{ユニット|ゆにっと}や{地|ち}{形|けい}が{射|しゃ}{線|せん}を{部|ぶ}{分|ぶん}{的|てき}に{遮|さえぎ}り、{防|ぼう}{御|ぎょ}ボーナスを{与|あた}える",
+      "explanation_en": "A terrain element or intervening unit that partially blocks line of sight, granting a defensive or saving modifier to the covered unit.",
+      "implicit_notes": "⚠️ WH*: 遮蔽 appears in WH40K Japan as 遮蔽物 (cover object) and 遮蔽物ボーナス (cover bonus). However, 遮蔽 is a standard Japanese architectural and military term meaning to screen/obstruct, predating Warhammer by centuries.",
+      "orthography_notes": "遮蔽: 遮 (block/obstruct) + 蔽 (cover/conceal). Classical Japanese architectural and military term. Goo dictionary lists it as a standard word. The WH concern is the specific compound 遮蔽物ボーナス, not 遮蔽 itself. 障害 is the fully neutral alternative if caution is preferred.",
+      "game_setting_notes": "⚠️ WH*: Use with awareness that 遮蔽物 compounds appear in WH Japan. 遮蔽 alone is classical and low-risk. 障害 (obstacle) is the fully neutral alternative used in JWC terrain rules."
+    }
+  ],
+  "usage_jp": "{遮|しゃ}{蔽|へい}を{利|り}{用|よう}する (use cover); {遮|しゃ}{蔽|へい}ボーナス (cover bonus)",
+  "usage_en": "\"cover\" (as in 'in cover'), \"hindering terrain\", \"screening\".",
+  "comparative_notes": "遮蔽物ボーナス is the WH Japan compound; 遮蔽 alone is classical. 障害 (shougai, obstacle) is the recommended fully neutral alternative that avoids any WH association.",
+  "examples": [
+    {
+      "id": "00022_shahei_ex1",
+      "japanese": "{遮|しゃ}{蔽|へい}に{隠|かく}れたユニットは{防|ぼう}{御|ぎょ}ボーナスを{得|え}る。",
+      "english": "Units in cover gain a defensive bonus.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00019_chikei",
+      "note": "地形 — terrain category that 遮蔽 belongs to"
+    },
+    {
+      "type": "related",
+      "id": "00020_shasen",
+      "note": "射線 — line of sight reduced by 遮蔽"
+    },
+    {
+      "type": "related",
+      "id": "00026_bougyo",
+      "note": "防御 — the stat modified by 遮蔽 bonus"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

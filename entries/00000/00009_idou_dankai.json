@@ -1,0 +1,75 @@
+{
+  "id": "00009_idou_dankai",
+  "headword_jp": "{移|い}{動|どう}{段|だん}{階|かい}",
+  "headword_en": "moving phase",
+  "reading": "いどうだんかい",
+  "romaji": "idou_dankai",
+  "kanji_form": "移動段階",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "移動フェイズ",
+      "reading": "いどうフェイズ",
+      "note": "⚠️ WH*: Appears in WH40K Japan. 移動 is entirely generic Japanese; the フェイズ suffix creates the WH-pattern compound. Using 移動段階 is safer."
+    }
+  ],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the phase of a turn in which units may move on the battlefield",
+      "gloss_jp": "{ユニット|ゆにっと}が{戦|せん}{場|じょう}を{移|い}{動|どう}できる{手|て}{番|ばん}の{段|だん}{階|かい}",
+      "explanation_en": "A dedicated phase for moving units before combat begins. Movement allowances and terrain restrictions apply.",
+      "implicit_notes": "移動 (movement) is a completely generic Japanese word used in JWC wargame documentation, Fire Emblem (移動力 = movement stat), and everyday language. The WH concern is the specific 移動フェイズ compound, not the word 移動 itself.",
+      "orthography_notes": "移動 (idou): 移 (transfer/shift) + 動 (move). 段階 replaces フェイズ to avoid the WH40K Japan phase-naming pattern. JWC documentation uses 移動作戦 (movement operations) as independent evidence for 移動 in wargame contexts.",
+      "game_setting_notes": "Standard phase in miniature wargames. WH40K Japan uses 移動フェイズ; using 移動段階 clearly distinguishes this project's terminology."
+    }
+  ],
+  "usage_jp": "{移|い}{動|どう}{段|だん}{階|かい}に{ユニット|ゆにっと}を{動|うご}かす (move units in the moving phase)",
+  "usage_en": "\"moving phase\" or \"movement phase\".",
+  "comparative_notes": "移動フェイズ is the WH40K Japan term; lower IP risk than 突撃フェイズ but still a WH compound pattern. 移動段階 is recommended.",
+  "examples": [
+    {
+      "id": "00009_idou_dankai_ex1",
+      "japanese": "{移|い}{動|どう}{段|だん}{階|かい}に{前|ぜん}{進|しん}する。",
+      "english": "Advance during the moving phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00007_feezu",
+      "note": "フェイズ — why 段階 is preferred"
+    },
+    {
+      "type": "related",
+      "id": "00024_zenshin",
+      "note": "前進 — advance; primary action in this phase"
+    },
+    {
+      "type": "related",
+      "id": "00025_kougun",
+      "note": "行軍 — march; extended movement action"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

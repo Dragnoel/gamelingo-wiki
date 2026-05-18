@@ -1,0 +1,67 @@
+{
+  "id": "00034_kago",
+  "headword_jp": "{加|か}{護|ご}",
+  "headword_en": "aegis / divine protection",
+  "reading": "かご",
+  "romaji": "kago",
+  "kanji_form": "加護",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "アイギス",
+      "reading": "アイギス",
+      "note": "Greek-derived katakana loanword for 'aegis'. Used in Persona 3 (character name) and other JP games drawing on Greek myth. Preferred if Greek mythological framing is intended."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg",
+    "video"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "divine protection or a magical ward; a saving mechanic granting resistance to certain damage types",
+      "gloss_jp": "{神|かみ}や{霊|れい}{的|てき}{存|そん}{在|ざい}からの{守|まも}り；{特|とく}{定|てい}のダメージを{軽|けい}{減|げん}する{魔|ま}{法|ほう}{的|てき}な{加|か}{護|ご}",
+      "explanation_en": "A protective blessing or ward. In game terms, represents a saving throw or damage reduction granted by divine or magical means.",
+      "implicit_notes": "加護 is a deeply Japanese Shinto and Buddhist concept meaning divine blessing/protection (as in 神の加護, 'divine grace'). Using 加護 for an aegis-type game mechanic grounds the game in Japanese spiritual vocabulary rather than Greek mythology.",
+      "orthography_notes": "加護: 加 (add/grant) + 護 (protect). A classical Japanese Buddhist and Shinto term. Kotobank dictionary cites it as 'divine protection'. Used in Japanese RPGs broadly (JRPGs). Not WH-specific. アイギス is the Greek-mythology katakana alternative.",
+      "game_setting_notes": "TRPGs and fantasy board games. 加護 gives the mechanic a Japanese spiritual flavour. アイギス (Greek: aegis, divine shield) is used in games explicitly referencing Greek mythology (Persona 3)."
+    }
+  ],
+  "usage_jp": "{神|かみ}の{加|か}{護|ご} (divine protection); {加|か}{護|ご}セービング (aegis saving roll)",
+  "usage_en": "\"aegis\", \"divine protection\", \"ward\".",
+  "comparative_notes": "加護 carries Japanese spiritual resonance. アイギス is appropriate for Greek-mythology-framed games. Neither is WH-specific.",
+  "examples": [
+    {
+      "id": "00034_kago_ex1",
+      "japanese": "{神|かみ}のご{加|か}{護|ご}がありますように。",
+      "english": "May God keep you!",
+      "source": "Tatoeba #1974722",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00026_bougyo",
+      "note": "防御 — defense (general); 加護 is a specific supernatural form of protection"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

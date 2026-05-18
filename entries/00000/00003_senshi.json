@@ -1,0 +1,66 @@
+{
+  "id": "00003_senshi",
+  "headword_jp": "{戦|せん}{士|し}",
+  "headword_en": "warrior / fighter unit",
+  "reading": "せんし",
+  "romaji": "senshi",
+  "kanji_form": "戦士",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "武者",
+      "reading": "むしゃ",
+      "note": "Classical Japanese term for armed samurai-era warriors; implies historical Japanese martial culture specifically."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a warrior or combat-capable unit type",
+      "gloss_jp": "{戦|せん}{闘|とう}を{行|おこな}う{人|ひと}または{ユニット|ゆにっと}",
+      "explanation_en": "A generic label for a frontline fighting unit or character class in games. In wargames, used as a unit-type designation; in TRPGs, often a character class name.",
+      "implicit_notes": "Carries connotations of melee or close-combat specialization. Does not imply rank or command.",
+      "orthography_notes": "Native Japanese compound: 戦 (war/battle) + 士 (person of skill/rank). Not a Warhammer coinage; predates modern miniature wargames. Kotobank and Weblio list it as a general dictionary term.",
+      "game_setting_notes": "Broad game-setting applicability. In TRPGs (D&D Japanese translation, Hobby Japan), 戦士 is a character class name. In miniature wargames, used as a unit type. 武者 is preferred in games with explicitly Japanese historical settings."
+    }
+  ],
+  "usage_jp": "{戦|せん}{士|し}ユニット (warrior unit); {戦|せん}{士|し}クラス (warrior class)",
+  "usage_en": "\"warrior\", \"fighter\", or \"soldier\" depending on context. Use \"warrior\" when heroic or classlike; \"soldier\" when military-regimented.",
+  "comparative_notes": "武者 (musha) is the classical samurai-era cognate but is domain-specific. 兵士 (heishi, soldier) implies military rank structure and is less common as a unit type name.",
+  "examples": [
+    {
+      "id": "00003_senshi_ex1",
+      "japanese": "{戦|せん}{士|し}が{戦|たたか}う。",
+      "english": "Warriors fight.",
+      "source": "Tatoeba #6828219",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00016_kougeki",
+      "note": "攻撃 — the primary action of a 戦士 unit"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

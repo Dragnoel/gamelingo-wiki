@@ -1,0 +1,71 @@
+{
+  "id": "00028_yoroi",
+  "headword_jp": "{鎧|よろい}",
+  "headword_en": "armour",
+  "reading": "よろい",
+  "romaji": "yoroi",
+  "kanji_form": "鎧",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "装甲",
+      "reading": "そうこう",
+      "note": "Modern military term for armour plating (vehicles, tanks). Used in miniature game Wikipedia Japan for armoured vehicle rules."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "armour worn by a unit; a protective equipment type that reduces damage taken",
+      "gloss_jp": "{ユニット|ゆにっと}が{身|み}に{着|つ}ける{防|ぼう}{具|ぐ}；{受|う}けるダメージを{軽|けい}{減|げん}する{装|そう}{備|び}",
+      "explanation_en": "Physical armour carried or worn by a unit. Contributes to defensive stats or saving rolls. In TRPGs, may be an equipment item with specific stat modifiers.",
+      "implicit_notes": "鎧 is a classical Japanese word for samurai armour (specifically lamellar/ōyoroi). In game contexts, it generalises to any body armour. The cultural resonance is strong.",
+      "orthography_notes": "鎧 is a native Japanese word for traditional Japanese armour (鎧兜 = armour and helmet). Kotobank dictionary. WH Japan uses アーマーセーブ (armour save) as the saving mechanic term — 鎧 itself is not a WH term. 装甲 is the modern military term for vehicle armour.",
+      "game_setting_notes": "In fantasy wargames and TRPGs, 鎧 is the standard armour equipment term. In historical miniature wargames, 装甲 is preferred for mechanised/vehicle units."
+    }
+  ],
+  "usage_jp": "{鎧|よろい}を{装|そう}{備|び}する (to equip armour); {鎧|よろい}の{防|ぼう}{御|ぎょ}{値|ち} (armour's defense value)",
+  "usage_en": "\"armour\" (British spelling standard in this project).",
+  "comparative_notes": "アーマーセーブ is WH Japan's specific saving mechanic term — avoid this compound. 鎧 refers to the armour itself and is classical Japanese with no WH concern. 装甲 is preferred for mechanised units.",
+  "examples": [
+    {
+      "id": "00028_yoroi_ex1",
+      "japanese": "{騎|き}{士|し}の{時|じ}{代|だい}には、{彼|かれ}{等|ら}は{剣|けん}での{闘|たたか}いによる{怪|け}{我|が}から{身|み}を{守|まも}るため{鎧|よろい}を{身|み}に{付|つ}けた。",
+      "english": "In the days of the knights, they wore armor to protect themselves from sword-fight wounds.",
+      "source": "Tatoeba #182950",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00026_bougyo",
+      "note": "防御 — defense stat that 鎧 contributes to"
+    },
+    {
+      "type": "related",
+      "id": "00032_kantsuu_ryoku",
+      "note": "貫通力 — penetration; the stat that defeats 鎧"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

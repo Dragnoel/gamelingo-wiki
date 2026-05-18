@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id","headword_jp","headword_en","reading","romaji",
+               "part_of_speech","register","domain","definitions",
+               "examples","sources","metadata"],
+  "properties": {
+    "id":            { "type": "string", "pattern": "^[0-9]{5}_[a-z0-9_]+$" },
+    "headword_jp":   { "type": "string" },
+    "headword_en":   { "type": "string" },
+    "reading":       { "type": "string" },
+    "romaji":        { "type": "string" },
+    "kanji_form":    { "type": ["string","null"] },
+    "katakana_form": { "type": ["string","null"] },
+    "alt_forms":     { "type": "array" },
+    "part_of_speech":{ "type": "string" },
+    "register": {
+      "type": "array",
+      "items": { "enum": ["casual","formal","in-game","rulebook","meta"] }
+    },
+    "domain": {
+      "type": "array",
+      "items": { "enum": ["board","video","ttrpg","card","digital-card","other"] }
+    },
+    "definitions":   { "type": "array", "minItems": 1 },
+    "usage_jp":      { "type": "string" },
+    "usage_en":      { "type": "string" },
+    "comparative_notes": { "type": "string" },
+    "examples":      { "type": "array" },
+    "cross_references": { "type": "array" },
+    "sources":       { "type": "array" },
+    "metadata": {
+      "type": "object",
+      "required": ["created","modified","furigana_verified","reviewed"],
+      "properties": {
+        "created":           { "type": "string", "format": "date-time" },
+        "modified":          { "type": "string", "format": "date-time" },
+        "furigana_verified": { "type": "boolean" },
+        "reviewed":          { "type": "boolean" }
+      }
+    }
+  }
+}

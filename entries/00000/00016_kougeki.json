@@ -1,0 +1,77 @@
+{
+  "id": "00016_kougeki",
+  "headword_jp": "{攻|こう}{撃|げき}",
+  "headword_en": "attack",
+  "reading": "こうげき",
+  "romaji": "kougeki",
+  "kanji_form": "攻撃",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun / verb stem",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg",
+    "card"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "an offensive action directed at an enemy unit or target",
+      "gloss_jp": "{敵|てき}{ユニット|ゆにっと}または{対|たい}{象|しょう}に{向|む}けた{攻|こう}{勢|せい}{的|てき}{行|こう}{動|どう}",
+      "explanation_en": "The fundamental offensive action in combat. May refer to the act itself, a declared action, or a game mechanic. Covers both ranged and melee contexts unless further qualified.",
+      "implicit_notes": "攻撃 is the general term covering all offensive actions. When specificity is required, 遠距離攻撃 (ranged) or 近接攻撃 (melee) are used.",
+      "orthography_notes": "攻撃: 攻 (attack/assault) + 撃 (strike/hit). Standard Japanese military and game term. Goo dictionary entry is generic. JWC glossary uses 攻撃作戦 (attack operation). Fire Emblem and Famicom Wars use 攻撃 as a core mechanic term. Not WH-specific.",
+      "game_setting_notes": "Universal across all game genres. WH Japan abbreviates it as 攻 (attack stat shorthand) on datasheets, but the full word 攻撃 is entirely generic."
+    }
+  ],
+  "usage_jp": "{攻|こう}{撃|げき}する (to attack); {攻|こう}{撃|げき}を{宣|せん}{言|げん}する (declare an attack); {攻|こう}{撃|げき}{力|りょく} (attack stat)",
+  "usage_en": "\"attack\" as noun or verb.",
+  "comparative_notes": "攻撃 is the umbrella term. Use 遠距離攻撃 or 近接攻撃 when the attack type must be specified. 攻撃力 (attack power) is the stat form.",
+  "examples": [
+    {
+      "id": "00016_kougeki_ex1",
+      "japanese": "{攻|こう}{撃|げき}は{最|さい}{大|だい}の{防|ぼう}{衛|えい}。",
+      "english": "Attack is the best form of defense.",
+      "source": "Tatoeba #173582",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "hyponym",
+      "id": "00017_enkyori_kougeki",
+      "note": "遠距離攻撃 — ranged attack"
+    },
+    {
+      "type": "hyponym",
+      "id": "00018_kinsetsu_kougeki",
+      "note": "近接攻撃 — melee attack"
+    },
+    {
+      "type": "related",
+      "id": "00029_kougeki_suu",
+      "note": "攻撃数 — number of attacks (stat)"
+    },
+    {
+      "type": "related",
+      "id": "00030_kougeki_ryoku",
+      "note": "攻撃力 — attack power (stat)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

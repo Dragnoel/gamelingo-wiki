@@ -1,0 +1,65 @@
+{
+  "id": "00029_kougeki_suu",
+  "headword_jp": "{攻|こう}{撃|げき}{数|すう}",
+  "headword_en": "attacks (stat) / number of attacks",
+  "reading": "こうげきすう",
+  "romaji": "kougeki_suu",
+  "kanji_form": "攻撃数",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat indicating how many attack dice or attack attempts a unit makes per combat",
+      "gloss_jp": "{ユニット|ゆにっと}が{1|いち}{回|かい}の{戦|せん}{闘|とう}で{行|おこな}える{攻|こう}{撃|げき}の{回|かい}{数|すう}",
+      "explanation_en": "A numeric stat on a unit's profile indicating how many times it attacks per combat phase or activation.",
+      "implicit_notes": "The 数 (suu, number/count) suffix creates a stat measuring the quantity of attacks. WH Japan abbreviates 攻撃数 as 攻 on datasheets, but the full compound is generic.",
+      "orthography_notes": "攻撃数: 攻撃 (attack) + 数 (number/count). Descriptive compound. WH Japan uses 攻 as a stat abbreviation on datasheets, not the full word. The full compound 攻撃数 is generic.",
+      "game_setting_notes": "Miniature wargame and TRPG specific. Appears on unit stat profiles. Distinct from 攻撃力 (attack power — how effective each attack is)."
+    }
+  ],
+  "usage_jp": "{攻|こう}{撃|げき}{数|すう}3（{1|いち}{ターン|たーん}に3{回|かい}{攻|こう}{撃|げき}できる）",
+  "usage_en": "\"Attacks: 3\" on a stat profile; \"number of attacks\".",
+  "comparative_notes": "攻撃力 (kougeki-ryoku) measures attack effectiveness or damage; 攻撃数 measures how many attacks are made. Both appear on unit profiles.",
+  "examples": [
+    {
+      "id": "00029_kougeki_suu_ex1",
+      "japanese": "このユニットの{攻|こう}{撃|げき}{数|すう}は3だ。",
+      "english": "This unit's Attacks stat is 3.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00016_kougeki",
+      "note": "攻撃 — the attack action"
+    },
+    {
+      "type": "related",
+      "id": "00030_kougeki_ryoku",
+      "note": "攻撃力 — attack power (effectiveness of each attack, distinct from count)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

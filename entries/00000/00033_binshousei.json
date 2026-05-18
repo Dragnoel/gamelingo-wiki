@@ -1,0 +1,61 @@
+{
+  "id": "00033_binshousei",
+  "headword_jp": "{敏|びん}{捷|しょう}{性|せい}",
+  "headword_en": "agility",
+  "reading": "びんしょうせい",
+  "romaji": "binshousei",
+  "kanji_form": "敏捷性",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg",
+    "video"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat representing quickness, dexterity, or reflexes; may affect initiative, dodge, or movement",
+      "gloss_jp": "{すばやさ|すばやさ}や{反|はん}{射|しゃ}{神|しん}{経|けい}を{示|しめ}す{ステータス|すてーたす}；{先|せん}{攻|こう}{権|けん}や{回|かい}{避|ひ}に{影|えい}{響|きょう}することがある",
+      "explanation_en": "A TRPG-standard stat for Dexterity/Agility. Governs movement speed, reaction time, and evasion. In wargames, may affect which side acts first.",
+      "implicit_notes": "敏捷性 is the established Japanese TRPG rendering of Dexterity (D&D, Pathfinder). The docx notes that 速度 (speed) is incorrect for this concept — 速度 means rate of motion, not reflexive quickness.",
+      "orthography_notes": "敏捷: 敏 (quick/nimble) + 捷 (agile/swift). 性 (sei) as a suffix: quality/nature. 捷 (U+6377) is a less-common kanji but standard in 敏捷. Goo dictionary lists 敏捷 as a general adjective. Hobby Japan D&D translation uses 敏捷性 for Dexterity. Not WH-specific.",
+      "game_setting_notes": "TRPG-standard. Hobby Japan D&D and Pathfinder translations both use 敏捷性 for the Dexterity/Agility ability score. In wargames, used for initiative and evasion stats."
+    }
+  ],
+  "usage_jp": "{敏|びん}{捷|しょう}{性|せい}ステータス (Agility stat); {敏|びん}{捷|しょう}{性|せい}判{定|てい} (Agility check, TRPG)",
+  "usage_en": "\"Agility\", \"Dexterity\", \"DEX stat\".",
+  "comparative_notes": "速度 (sokudo, speed) is incorrect — it measures rate of motion, not reflexive quickness. 敏捷性 is the established TRPG standard for Dexterity/Agility.",
+  "examples": [
+    {
+      "id": "00033_binshousei_ex1",
+      "japanese": "{敏|びん}{捷|しょう}{性|せい}が{高|たか}いユニットは{先|せん}{攻|こう}できる。",
+      "english": "High-Agility units may act first.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00031_chikara",
+      "note": "力 — Strength stat (paired ability score in TRPG contexts)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

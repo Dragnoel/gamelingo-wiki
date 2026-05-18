@@ -1,0 +1,80 @@
+{
+  "id": "00011_hakuheisen_dankai",
+  "headword_jp": "{白|はく}{兵|へい}{戦|せん}{段|だん}{階|かい}",
+  "headword_en": "fighting phase / close combat phase",
+  "reading": "はくへいせんだんかい",
+  "romaji": "hakuheisen_dankai",
+  "kanji_form": "白兵戦段階",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "白兵戦フェイズ",
+      "reading": "はくへいせんフェイズ",
+      "note": "⚠️ WH: Exact WH40K Japan term for the fight phase. Avoid."
+    },
+    {
+      "form": "近接格闘段階",
+      "reading": "きんせつかくとうだんかい",
+      "note": "Fully neutral alternative: 近接 (melee) + 格闘 (hand-to-hand combat) + 段階."
+    }
+  ],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the phase of a turn in which units in base contact or engagement range fight in melee",
+      "gloss_jp": "{接|せっ}{触|しょく}{中|ちゅう}または{交|こう}{戦|せん}{中|ちゅう}の{ユニット|ゆにっと}が{近|きん}{接|せつ}{戦|せん}{闘|とう}を{行|おこな}える{手|て}{番|ばん}の{段|だん}{階|かい}",
+      "explanation_en": "A dedicated phase for resolving melee / hand-to-hand combat between engaged units.",
+      "implicit_notes": "白兵戦 (hakuheisen, hand-to-hand combat) is a classical Japanese military term used in WWII-era orders, military history texts, and the Goo dictionary. The term predates Warhammer. The WH concern is specifically 白兵戦フェイズ as a compound.",
+      "orthography_notes": "白兵戦: 白兵 (bare/white weapons = sword and spear, as opposed to firearms) + 戦 (battle). A standard military Japanese compound. 段階 replaces フェイズ. WH AoS Japan 4th ed. uses 近接フェイズ as an alternative WH term; 白兵戦段階 avoids both.",
+      "game_setting_notes": "High-priority WH flag. 白兵戦フェイズ is the WH40K Japan term. 近接格闘段階 is the fully neutral alternative if 白兵戦 is also considered too close in context."
+    }
+  ],
+  "usage_jp": "{白|はく}{兵|へい}{戦|せん}{段|だん}{階|かい}に{近|きん}{接|せつ}{攻|こう}{撃|げき}を{行|おこな}う (perform melee attacks in the fighting phase)",
+  "usage_en": "\"fighting phase\" or \"close combat phase\".",
+  "comparative_notes": "白兵戦フェイズ is high-priority WH. 白兵戦段階 is the recommended safe form. 近接格闘段階 is fully neutral if extra caution is needed.",
+  "examples": [
+    {
+      "id": "00011_hakuheisen_dankai_ex1",
+      "japanese": "{白|はく}{兵|へい}{戦|せん}{段|だん}{階|かい}が{始|はじ}まった。",
+      "english": "The fighting phase has begun.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00007_feezu",
+      "note": "フェイズ — why 段階 is preferred"
+    },
+    {
+      "type": "related",
+      "id": "00018_kinsetsu_kougeki",
+      "note": "近接攻撃 — melee attack; primary action in this phase"
+    },
+    {
+      "type": "related",
+      "id": "00008_totsugeki_dankai",
+      "note": "突撃段階 — charging phase that precedes this phase"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

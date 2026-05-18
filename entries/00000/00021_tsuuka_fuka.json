@@ -1,0 +1,59 @@
+{
+  "id": "00021_tsuuka_fuka",
+  "headword_jp": "{通|つう}{過|か}{不|ふ}{可|か}",
+  "headword_en": "impassable",
+  "reading": "つうかふか",
+  "romaji": "tsuuka_fuka",
+  "kanji_form": "通過不可",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "adjectival noun / noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a terrain type or status indicating that movement through it is prohibited",
+      "gloss_jp": "{通|つう}{過|か}や{移|い}{動|どう}が{禁|きん}{止|し}されている{地|ち}{形|けい}または{状|じょう}{態|たい}",
+      "explanation_en": "Units may not move through impassable terrain. The designation prevents all normal movement, though some special rules may allow exceptions.",
+      "implicit_notes": "通過不可 is a standard Japanese negation compound (通過 + 不可). The same construction appears on traffic signs (通行不可 = no through traffic) and military maps.",
+      "orthography_notes": "通過: 通 (through/pass) + 過 (pass). 不可: 不 (non-) + 可 (possible/permitted). Standard negation compound. Weblio dictionary lists 通過 as a general-purpose word. JWC terrain rules use 通過不可. Not WH-specific.",
+      "game_setting_notes": "In miniature wargames, impassable terrain blocks movement entirely. Example types: walls, cliffs, deep water. Units cannot enter or cross the terrain piece."
+    }
+  ],
+  "usage_jp": "{通|つう}{過|か}{不|ふ}{可|か}の{地|ち}{形|けい} (impassable terrain); この{地|ち}{形|けい}は{通|つう}{過|か}{不|ふ}{可|か}です (this terrain is impassable)",
+  "usage_en": "\"impassable\", \"impassable terrain\".",
+  "comparative_notes": "Contrasts with 困難地形 (difficult terrain) which imposes movement penalties rather than prohibition. 通行不可 is a close synonym used on traffic signs; 通過不可 is the wargame-standard form.",
+  "examples": [
+    {
+      "id": "00021_tsuuka_fuka_ex1",
+      "japanese": "{通|つう}{過|か}{不|ふ}{可|か}の{地|ち}{形|けい}には{侵|しん}{入|にゅう}できない。",
+      "english": "Units cannot enter impassable terrain.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00019_chikei",
+      "note": "地形 — terrain; 通過不可 is a terrain classification"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

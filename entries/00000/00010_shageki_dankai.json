@@ -1,0 +1,70 @@
+{
+  "id": "00010_shageki_dankai",
+  "headword_jp": "{射|しゃ}{撃|げき}{段|だん}{階|かい}",
+  "headword_en": "shooting phase",
+  "reading": "しゃげきだんかい",
+  "romaji": "shageki_dankai",
+  "kanji_form": "射撃段階",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "射撃フェイズ",
+      "reading": "しゃげきフェイズ",
+      "note": "⚠️ WH: Exact WH40K Japan term for the shooting phase. AoS 4th ed. Japan changed this to 遠隔フェイズ. Using 射撃段階 avoids the WH compound."
+    }
+  ],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the phase of a turn in which units with ranged weapons may fire at enemy targets",
+      "gloss_jp": "{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}を{持|も}つ{ユニット|ゆにっと}が{攻|こう}{撃|げき}できる{手|て}{番|ばん}の{段|だん}{階|かい}",
+      "explanation_en": "A dedicated phase for ranged combat. Units eligible to shoot select targets and resolve ranged attacks.",
+      "implicit_notes": "射撃 (shageki, shooting/firing) is a standard Japanese military term used in military ballistics and JWC documentation. It is not a WH coinage. The risk is the 射撃フェイズ compound, which is the exact WH40K Japan phase name.",
+      "orthography_notes": "射撃: 射 (shoot/arrow) + 撃 (strike). Attested in the Goo dictionary as a military/ballistics term. 段階 replaces フェイズ to form a distinct compound.",
+      "game_setting_notes": "High-priority WH flag per the docx. 射撃フェイズ is the direct WH40K/AoS Japan term (AoS 4th ed. later changed it to 遠隔フェイズ for ranged phase). 射撃段階 is the recommended safe alternative."
+    }
+  ],
+  "usage_jp": "{射|しゃ}{撃|げき}{段|だん}{階|かい}に{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}を{行|おこな}う (perform ranged attacks during the shooting phase)",
+  "usage_en": "\"shooting phase\" or \"ranged phase\".",
+  "comparative_notes": "射撃フェイズ is high-priority WH. 射撃段階 achieves the same meaning. AoS Japan's 遠隔フェイズ (remote/ranged phase) is a third option but carries a different WH association.",
+  "examples": [
+    {
+      "id": "00010_shageki_dankai_ex1",
+      "japanese": "{射|しゃ}{撃|げき}{段|だん}{階|かい}に{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}を{宣|せん}{言|げん}する。",
+      "english": "Declare a ranged attack in the shooting phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00007_feezu",
+      "note": "フェイズ — why 段階 is preferred"
+    },
+    {
+      "type": "related",
+      "id": "00017_enkyori_kougeki",
+      "note": "遠距離攻撃 — ranged attack; primary action in this phase"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

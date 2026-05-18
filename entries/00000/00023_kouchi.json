@@ -1,0 +1,59 @@
+{
+  "id": "00023_kouchi",
+  "headword_jp": "{高|こう}{地|ち}",
+  "headword_en": "elevated ground / high ground",
+  "reading": "こうち",
+  "romaji": "kouchi",
+  "kanji_form": "高地",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "terrain that is elevated above the surrounding area, granting advantages to units occupying it",
+      "gloss_jp": "{周|まわ}りより{高|たか}い{場|ば}{所|しょ}にある{地|ち}{形|けい}；{占|せん}{領|りょう}した{ユニット|ゆにっと}に{優|ゆう}{位|い}を{与|あた}える",
+      "explanation_en": "A terrain type at higher elevation. Units on high ground often gain shooting range advantages, line-of-sight advantages, or combat modifiers.",
+      "implicit_notes": "高地 is a classical Japanese military geography term extensively documented in WWII-era military writing. The phrase '高地を制する' (control the high ground) is a classical military maxim.",
+      "orthography_notes": "高地: 高 (high/tall) + 地 (ground/land). Goo dictionary lists it as a standard word meaning 'elevated land'. JWC terrain documentation attests it. Not WH-specific.",
+      "game_setting_notes": "Standard wargame terrain type. Units occupying 高地 gain advantages specified in the terrain rules. No WH-specific concern."
+    }
+  ],
+  "usage_jp": "{高|こう}{地|ち}を{占|せん}{領|りょう}する (occupy the high ground); {高|こう}{地|ち}の{ユニット|ゆにっと}は+1の{射|しゃ}{撃|げき}ボーナスを{得|え}る (units on high ground gain +1 to shooting)",
+  "usage_en": "\"high ground\", \"elevated terrain\", \"elevated position\".",
+  "comparative_notes": "No direct WH concern. Classical military term with broad applicability in wargame and historical contexts.",
+  "examples": [
+    {
+      "id": "00023_kouchi_ex1",
+      "japanese": "{彼|かれ}らはその{高|こう}{地|ち}を{敵|てき}{軍|ぐん}に{明|あ}け{渡|わた}した。",
+      "english": "They abandoned the hill to enemy forces.",
+      "source": "Tatoeba #97936",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00019_chikei",
+      "note": "地形 — terrain; 高地 is an elevation-type terrain"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

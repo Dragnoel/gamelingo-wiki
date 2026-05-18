@@ -1,0 +1,60 @@
+{
+  "id": "00001_taisen",
+  "headword_jp": "{対|たい}{戦|せん}",
+  "headword_en": "match / competitive bout",
+  "reading": "たいせん",
+  "romaji": "taisen",
+  "kanji_form": "対戦",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun / verb stem",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a competitive match or bout between two players or sides",
+      "gloss_jp": "二人または二陣営が競い合う試合・勝負",
+      "explanation_en": "The general frame for a game session understood as a competitive encounter. Used across all Japanese game genres for head-to-head play.",
+      "implicit_notes": "Implies adversarial structure; used even when the game has cooperative elements if sides are opposed.",
+      "orthography_notes": "Always written in kanji (対戦). No katakana variant in standard usage. The compound uses 対 (facing / opposing) + 戦 (war / battle).",
+      "game_setting_notes": "Universal across board games, video games, and TCGs. In miniature wargames, frames the entire game session as a single match. JWC wargame glossary uses 対戦 as the default term for a game-length encounter."
+    }
+  ],
+  "usage_jp": "{対|たい}{戦|せん}する (to play a match); {対|たい}{戦|せん}{相|あい}{手|て} (opponent); {対|たい}{戦|せん}{表|ひょう} (match record / pairing sheet)",
+  "usage_en": "\"match\" in competitive contexts; \"game\" when referring to a single session.",
+  "comparative_notes": "Preferred over 試合 (shiai) in board and miniature wargame contexts, where 試合 reads as sports-specific. 対局 (taikyoku) is the shogi/go equivalent but is not used outside those domains.",
+  "examples": [
+    {
+      "id": "00001_taisen_ex1",
+      "japanese": "{対|たい}{戦|せん}{相|あい}{手|て}を{甘|あま}く{見|み}るな。",
+      "english": "Don't underestimate your opponent.",
+      "source": "Tatoeba #529650",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00014_senjou",
+      "note": "戦場 — the battlefield on which the 対戦 takes place"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

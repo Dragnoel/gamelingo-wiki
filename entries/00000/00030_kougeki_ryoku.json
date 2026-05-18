@@ -1,0 +1,71 @@
+{
+  "id": "00030_kougeki_ryoku",
+  "headword_jp": "{攻|こう}{撃|げき}{力|りょく}",
+  "headword_en": "offense / attack power",
+  "reading": "こうげきりょく",
+  "romaji": "kougeki_ryoku",
+  "kanji_form": "攻撃力",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat representing the offensive power or damage output of a unit",
+      "gloss_jp": "{ユニット|ゆにっと}の{攻|こう}{勢|せい}{的|てき}な{強|つよ}さや{与|あた}えられるダメージ{量|りょう}を{示|しめ}す{ステータス|すてーたす}",
+      "explanation_en": "A numeric stat on a unit's profile measuring how much damage or effectiveness the unit delivers in combat. The primary offensive stat.",
+      "implicit_notes": "力 (ryoku) as a stat suffix signals a capacity or power level. 攻撃力 is the standard JRPG and SRPG term for the ATK stat.",
+      "orthography_notes": "攻撃力: 攻撃 (attack) + 力 (power/capacity). Universal Japanese game term. Fire Emblem uses 攻撃力 (ATK) as a core stat. Weblio dictionary lists it as a general game/military term. Not WH-specific.",
+      "game_setting_notes": "Universal across all Japanese game genres. Fire Emblem uses 攻撃力 as the ATK stat. In miniature wargames, may appear as a damage value or wound roll modifier."
+    }
+  ],
+  "usage_jp": "{攻|こう}{撃|げき}{力|りょく}ステータス (ATK stat); {攻|こう}{撃|げき}{力|りょく}が{高|たか}いユニット (high attack-power unit)",
+  "usage_en": "\"attack power\", \"offense\", \"ATK stat\".",
+  "comparative_notes": "防御 (bougyo, defense) is the antonym stat. 攻撃数 (kougeki-suu) counts attacks; 攻撃力 measures how effective each attack is.",
+  "examples": [
+    {
+      "id": "00030_kougeki_ryoku_ex1",
+      "japanese": "{攻|こう}{撃|げき}{力|りょく}が{防|ぼう}{御|ぎょ}{値|ち}を{超|こ}えた{場|ば}{合|あい}、ダメージが{発|はっ}{生|せい}する。",
+      "english": "Damage occurs when attack power exceeds the defense value.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "id": "00026_bougyo",
+      "note": "防御 — defense (the opposing stat)"
+    },
+    {
+      "type": "related",
+      "id": "00029_kougeki_suu",
+      "note": "攻撃数 — number of attacks (quantity, not power)"
+    },
+    {
+      "type": "hypernym",
+      "id": "00016_kougeki",
+      "note": "攻撃 — the action; 攻撃力 is the stat"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

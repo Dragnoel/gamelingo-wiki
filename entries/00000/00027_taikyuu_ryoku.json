@@ -1,0 +1,66 @@
+{
+  "id": "00027_taikyuu_ryoku",
+  "headword_jp": "{耐|たい}{久|きゅう}{力|りょく}",
+  "headword_en": "resilience / toughness",
+  "reading": "たいきゅうりょく",
+  "romaji": "taikyuu_ryoku",
+  "kanji_form": "耐久力",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat representing a unit's capacity to withstand damage; toughness",
+      "gloss_jp": "{ダメージ|だめーじ}への{耐|たい}{性|せい}や{丈|じょう}{夫|ぶ}さを{示|しめ}す{ステータス|すてーたす}",
+      "explanation_en": "A defensive stat reflecting physical durability or toughness. Determines how difficult a unit is to wound or kill. Distinct from 防御 (active defense) — 耐久力 is about structural resilience.",
+      "implicit_notes": "耐久力 represents passive durability, not active defensive action. In TRPG terms, it is closer to Constitution than Armor Class.",
+      "orthography_notes": "耐久: 耐 (endure) + 久 (lasting). 力 (ryoku) as a stat suffix: power/capacity. The compound 耐久力 is used in D&D Japanese translation (Hobby Japan) and across Japanese video games. Not WH-specific.",
+      "game_setting_notes": "Cross-genre applicable. Hobby Japan's D&D translation uses 耐久力 in stat terminology. Used across Japanese SRPGs and wargames for toughness stats."
+    }
+  ],
+  "usage_jp": "{耐|たい}{久|きゅう}{力|りょく}ステータス (resilience stat); {耐|たい}{久|きゅう}{力|りょく}が{高|たか}いユニット (high-toughness unit)",
+  "usage_en": "\"resilience\", \"toughness\", \"durability\".",
+  "comparative_notes": "防御 (defense) implies active resistance or an armor-like modifier. 耐久力 is passive — it represents how tough a unit is constitutionally.",
+  "examples": [
+    {
+      "id": "00027_taikyuu_ryoku_ex1",
+      "japanese": "１{万|まん}メートルを{走|はし}るには{大|おお}いに{耐|たい}{久|きゅう}{力|りょく}を{必|ひつ}{要|よう}とする。",
+      "english": "You need great endurance to run ten thousand meters.",
+      "source": "Tatoeba #235648",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00026_bougyo",
+      "note": "防御 — active defense (distinct from passive resilience)"
+    },
+    {
+      "type": "related",
+      "id": "00035_tairyoku",
+      "note": "体力 — health points (a unit's remaining life total, distinct from toughness)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

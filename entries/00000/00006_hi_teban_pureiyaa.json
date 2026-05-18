@@ -1,0 +1,60 @@
+{
+  "id": "00006_hi_teban_pureiyaa",
+  "headword_jp": "{非|ひ}{手|て}{番|ばん}プレイヤー",
+  "headword_en": "reactive player / non-active player",
+  "reading": "ひてばんプレイヤー",
+  "romaji": "hi_teban_pureiyaa",
+  "kanji_form": null,
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "card"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the player(s) whose turn it is not; the non-active or reactive player",
+      "gloss_jp": "{手|て}{番|ばん}ではないプレイヤー；{相|あい}{手|て}{方|がた}のプレイヤー",
+      "explanation_en": "Designates the player(s) who must wait while the active player acts. May have reactive actions available (e.g. interrupts, saves) depending on the ruleset.",
+      "implicit_notes": "非 (non-) is a formal negation prefix; the compound is a logical antonym formed from 非 + 手番プレイヤー. Not specific to any game system.",
+      "orthography_notes": "Uses the classical negation prefix 非 (hi-). The compound is not attested as a standalone dictionary entry but is constructed from standard elements and cited as a standard form in Wikipedia Japan (ターン (ゲーム)).",
+      "game_setting_notes": "Used in rulebooks that explicitly name both roles. In two-player miniature wargames, refers to the opponent. In multiplayer games, refers to all players except the active player."
+    }
+  ],
+  "usage_jp": "{非|ひ}{手|て}{番|ばん}プレイヤーは{反|はん}{応|のう}できる (the non-active player may react)",
+  "usage_en": "\"reactive player\", \"non-active player\", or \"your opponent\" depending on context.",
+  "comparative_notes": "The 非手番 prefix construction is productive in formal Japanese but uncommon in casual speech. Rulebooks use it for precision when contrasting active and reactive roles.",
+  "examples": [
+    {
+      "id": "00006_hi_teban_pureiyaa_ex1",
+      "japanese": "{非|ひ}{手|て}{番|ばん}プレイヤーはこの{段|だん}{階|かい}に{反|はん}{応|のう}できない。",
+      "english": "The non-active player cannot respond during this phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "id": "00005_teban_pureiyaa",
+      "note": "手番プレイヤー — the active player"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "00017_enkyori_kougeki",
+  "headword_jp": "{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}",
+  "headword_en": "ranged attack",
+  "reading": "えんきょりこうげき",
+  "romaji": "enkyori_kougeki",
+  "kanji_form": "遠距離攻撃",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "an attack performed at range, without physical contact with the target",
+      "gloss_jp": "{目|もく}{標|ひょう}と{直|ちょく}{接|せつ}{接|せっ}{触|しょく}せずに{行|おこな}う{攻|こう}{撃|げき}（{弓|ゆみ}、{銃|じゅう}、{魔|ま}{法|ほう}など）",
+      "explanation_en": "An attack that does not require the attacker to be adjacent to the target. Includes bows, firearms, spells, and other projectile or indirect attacks.",
+      "implicit_notes": "Contrasts structurally with 近接攻撃 (melee attack). 遠距離 (far distance) is a general Japanese term used in transportation, telecommunications, and sports as well as games.",
+      "orthography_notes": "遠距離: 遠 (far) + 距離 (distance). 攻撃: attack. The compound is descriptive, not proprietary. Goo dictionary lists 遠距離 as a standard word. Fire Emblem uses the 遠距離 vs. 近接 distinction as a core weapon-type concept.",
+      "game_setting_notes": "Cross-genre applicable. The docx confirms this term has independent Fire Emblem precedent. In miniature wargames, applies to shooting weapons. Not WH-specific."
+    }
+  ],
+  "usage_jp": "{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}を{行|おこな}う (perform a ranged attack); {遠|えん}{距|きょ}{離|り}{武|ぶ}{器|き} (ranged weapon)",
+  "usage_en": "\"ranged attack\", \"ranged strike\", \"shooting attack\".",
+  "comparative_notes": "近接攻撃 is the antonym. In Fire Emblem, 遠距離 weapon vs. 近接 weapon is a fundamental dichotomy. In miniature wargames, 遠距離攻撃 happens in the 射撃段階.",
+  "examples": [
+    {
+      "id": "00017_enkyori_kougeki_ex1",
+      "japanese": "{射|しゃ}{撃|げき}{段|だん}{階|かい}に{遠|えん}{距|きょ}{離|り}{攻|こう}{撃|げき}を{実|じっ}{行|こう}する。",
+      "english": "Execute a ranged attack during the shooting phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "id": "00018_kinsetsu_kougeki",
+      "note": "近接攻撃 — melee attack"
+    },
+    {
+      "type": "hypernym",
+      "id": "00016_kougeki",
+      "note": "攻撃 — attack (general)"
+    },
+    {
+      "type": "related",
+      "id": "00010_shageki_dankai",
+      "note": "射撃段階 — the phase in which ranged attacks occur"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "00004_teban",
+  "headword_jp": "{手|て}{番|ばん}",
+  "headword_en": "turn / one's turn to act",
+  "reading": "てばん",
+  "romaji": "teban",
+  "kanji_form": "手番",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "ターン",
+      "reading": "たーん",
+      "note": "Loanword from English 'turn'; common in video games and modern board games. Less historically rooted than 手番."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "card",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "one's turn to act; the right and responsibility to move",
+      "gloss_jp": "{自|じ}{分|ぶん}が{行|こう}{動|どう}できる{順|じゅん}{番|ばん}",
+      "explanation_en": "The period in which one player exercises agency while others wait. Originating in shogi and go, where it marks whose move is next.",
+      "implicit_notes": "手番 frames the turn as obligation as well as right — it is whose task it is to move, not merely whose opportunity.",
+      "orthography_notes": "Native Japanese compound: 手 (hand / move) + 番 (turn / one's place in sequence). The shogi/go origin predates all modern miniature wargaming. ターン Wikipedia Japan (ターン (ゲーム)) explicitly traces the origin of the 手番 concept to shogi.",
+      "game_setting_notes": "In shogi and go, 手番 refers specifically to the right to move next. In board and miniature wargames, the meaning extends to the full scope of a player's action phase within a round."
+    }
+  ],
+  "usage_jp": "{手|て}{番|ばん}プレイヤー (active player); {手|て}{番|ばん}を{交|か}わす (pass the turn); あなたの{手|て}{番|ばん}です (it is your turn)",
+  "usage_en": "\"turn\" as a noun; sometimes \"your move\" in contexts derived from abstract strategy games.",
+  "comparative_notes": "ターン (taan) is the dominant loanword in video games and many modern board games. 手番 is preferred in contexts emphasizing the Japanese game-design lineage or for explicit shogi/go cross-reference. Both are IP-safe.",
+  "examples": [
+    {
+      "id": "00004_teban_ex1",
+      "japanese": "{手|て}{番|ばん}プレイヤーは{行|こう}{動|どう}を{実|じっ}{行|こう}する。",
+      "english": "The active player executes an action.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00005_teban_pureiyaa",
+      "note": "手番プレイヤー — the active player"
+    },
+    {
+      "type": "related",
+      "id": "00006_hi_teban_pureiyaa",
+      "note": "非手番プレイヤー — the reactive player"
+    },
+    {
+      "type": "contrast",
+      "id": "00007_feezu",
+      "note": "フェイズ — subdivision of a turn into phases"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

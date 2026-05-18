@@ -1,0 +1,75 @@
+{
+  "id": "00008_totsugeki_dankai",
+  "headword_jp": "{突|とつ}{撃|げき}{段|だん}{階|かい}",
+  "headword_en": "charging phase",
+  "reading": "とつげきだんかい",
+  "romaji": "totsugeki_dankai",
+  "kanji_form": "突撃段階",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "突撃フェイズ",
+      "reading": "とつげきフェイズ",
+      "note": "⚠️ WH: The exact term used in WH40K Japan and AoS Japan for the charge phase. Avoid in new projects to prevent confusion with WH IP."
+    },
+    {
+      "form": "突進局面",
+      "reading": "とっしんきょくめん",
+      "note": "Alternative with 突進 (rushing forward) and 局面 (stage). Fully neutral."
+    }
+  ],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the phase of a turn in which units may declare and execute charges against enemy units",
+      "gloss_jp": "{ユニット|ゆにっと}が{敵|てき}{ユニット|ゆにっと}に{突|とつ}{撃|げき}を{宣|せん}{言|げん}・{実|じっ}{行|こう}できる{手|て}{番|ばん}の{段|だん}{階|かい}",
+      "explanation_en": "A distinct structural phase within a player's turn dedicated to charge declarations and charge moves. Typically precedes the fighting/combat phase.",
+      "implicit_notes": "突撃 (charge/rush) is a classical Japanese military command term used in WWII-era orders and historical writing. The component words are not proprietary; only the specific compound 突撃フェイズ mirrors WH Japan's branded vocabulary.",
+      "orthography_notes": "突撃段階 uses 段階 (dankai, step/stage) in place of フェイズ to create a distinct compound that avoids the WH Japan phase-naming pattern. 突撃 is a standard military Japanese compound: 突 (thrust/rush) + 撃 (strike).",
+      "game_setting_notes": "Miniature wargame specific. The docx explicitly recommends 突撃段階 over 突撃フェイズ for this reason. 突撃 is attested in the Goo dictionary as a general military term."
+    }
+  ],
+  "usage_jp": "{突|とつ}{撃|げき}{段|だん}{階|かい}に{突|とつ}{撃|げき}を{宣|せん}{言|げん}する (declare a charge in the charging phase)",
+  "usage_en": "\"charging phase\" or \"charge phase\".",
+  "comparative_notes": "突撃フェイズ is the WH40K/AoS Japan term and should be avoided to prevent IP ambiguity. 突撃段階 achieves the same meaning with a clearly distinct compound.",
+  "examples": [
+    {
+      "id": "00008_totsugeki_dankai_ex1",
+      "japanese": "{突|とつ}{撃|げき}{段|だん}{階|かい}を{開|かい}{始|し}する。",
+      "english": "Begin the charging phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00007_feezu",
+      "note": "フェイズ — the phase concept; why 段階 is preferred here"
+    },
+    {
+      "type": "related",
+      "id": "00011_hakuheisen_dankai",
+      "note": "白兵戦段階 — fighting phase that follows charges"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

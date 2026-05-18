@@ -1,0 +1,72 @@
+{
+  "id": "00031_chikara",
+  "headword_jp": "{力|ちから}",
+  "headword_en": "strength",
+  "reading": "ちから",
+  "romaji": "chikara",
+  "kanji_form": "力",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "筋力",
+      "reading": "きんりょく",
+      "note": "D&D Japanese translation (Hobby Japan) uses 筋力 for the Strength ability score. More specific to muscular/physical strength."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "ttrpg",
+    "video"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat representing physical strength; determines carrying capacity, melee damage, or similar physical effects",
+      "gloss_jp": "{ユニット|ゆにっと}または{キャラクター|きゃらくたー}の{身|み}{体|たい}{的|てき}な{強|つよ}さを{示|しめ}す{ステータス|すてーたす}",
+      "explanation_en": "A fundamental attribute or stat measuring raw physical power. Used in TRPGs and SRPGs for melee effectiveness, load-bearing capacity, and other strength-dependent checks.",
+      "implicit_notes": "力 (chikara) is the most fundamental Japanese word for power/force. In game stats, it usually refers to raw physical strength as opposed to skill (技), speed (速度), or intelligence (知恵).",
+      "orthography_notes": "力 is a single-character fundamental Japanese word meaning power, force, or strength. 筋力 (kinryoku) is the TRPG-specific compound: 筋 (muscle) + 力 (power), used in D&D Japanese translation for the Strength ability score. Both are fully generic.",
+      "game_setting_notes": "In TRPGs: 筋力 (Strength ability score, D&D Hobby Japan translation). In wargames: 力 is a simpler, more archaic-flavored stat label. In JRPGs, 力 frequently appears as the ATK or STR stat shorthand."
+    }
+  ],
+  "usage_jp": "{力|ちから}ステータス (Strength stat); {筋|きん}{力|りょく}判{定|てい} (Strength check, TRPG)",
+  "usage_en": "\"Strength\", \"STR stat\".",
+  "comparative_notes": "筋力 is the TRPG-standard translation of Strength (D&D). 力 is appropriate for simpler wargame stat profiles or flavour-text usage. Neither is WH-specific.",
+  "examples": [
+    {
+      "id": "00031_chikara_ex1",
+      "japanese": "{力|ちから}が{高|たか}いユニットは{近|きん}{接|せつ}{攻|こう}{撃|げき}で{有|ゆう}{利|り}だ。",
+      "english": "High-Strength units have an advantage in melee attacks.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00018_kinsetsu_kougeki",
+      "note": "近接攻撃 — melee combat where 力 stat applies"
+    },
+    {
+      "type": "related",
+      "id": "00030_kougeki_ryoku",
+      "note": "攻撃力 — attack power; often derived from 力"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

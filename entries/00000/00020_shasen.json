@@ -1,0 +1,70 @@
+{
+  "id": "00020_shasen",
+  "headword_jp": "{射|しゃ}{線|せん}",
+  "headword_en": "line of sight",
+  "reading": "しゃせん",
+  "romaji": "shasen",
+  "kanji_form": "射線",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "視認範囲",
+      "reading": "しにんはんい",
+      "note": "WH Japan uses 視認 (visual recognition) as its line-of-sight concept. 射線 (firing line) is a safer, more classical alternative."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the unobstructed path between an attacker and a target that determines whether an attack can be made",
+      "gloss_jp": "{攻|こう}{撃|げき}{者|しゃ}と{目|もく}{標|ひょう}の{間|あいだ}の{直|ちょく}{線|せん}経{路|ろ}；{射|しゃ}{撃|げき}の{可|か}{否|ひ}を{決|けっ}{定|てい}する",
+      "explanation_en": "The straight-line path between shooter and target. If blocked by terrain or other units, the attack may be prevented or penalized.",
+      "implicit_notes": "射線 is a military ballistics term for the firing line or line of fire. The docx notes that the current (unspecified) alternative 視覚の線 is an unnatural calque of English 'line of sight' and should be replaced.",
+      "orthography_notes": "射線: 射 (shoot/fire) + 線 (line). Goo dictionary defines it as a military term for 'firing line'. WH Japan uses 視認 (visual recognition) for its LOS concept. 射線 appears independently in Japanese military contexts.",
+      "game_setting_notes": "In wargames, 射線が通る (line of sight is clear) vs. 射線が遮られる (line of sight is blocked). Not WH-specific."
+    }
+  ],
+  "usage_jp": "{射|しゃ}{線|せん}が{通|とお}る (line of sight is clear); {射|しゃ}{線|せん}が{遮|さえぎ}られる (line of sight is blocked); {射|しゃ}{線|せん}を{確|かく}{認|にん}する (check line of sight)",
+  "usage_en": "\"line of sight\" or \"firing line\".",
+  "comparative_notes": "視覚の線 is an unnatural calque and should be avoided. 視認範囲 is WH Japan's term. 射線 is the recommended classical Japanese military term.",
+  "examples": [
+    {
+      "id": "00020_shasen_ex1",
+      "japanese": "{射|しゃ}{線|せん}が{地|ち}{形|けい}に{遮|さえぎ}られている。",
+      "english": "The line of sight is blocked by terrain.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00019_chikei",
+      "note": "地形 — terrain that can block 射線"
+    },
+    {
+      "type": "related",
+      "id": "00022_shahei",
+      "note": "遮蔽 — cover that reduces the effect of open 射線"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

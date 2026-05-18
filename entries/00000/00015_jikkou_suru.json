@@ -1,0 +1,60 @@
+{
+  "id": "00015_jikkou_suru",
+  "headword_jp": "{実|じっ}{行|こう}する",
+  "headword_en": "to perform / to execute",
+  "reading": "じっこうする",
+  "romaji": "jikkou_suru",
+  "kanji_form": "実行",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "verb (suru-verb)",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "to perform or carry out a game action",
+      "gloss_jp": "{ゲーム|げーむ}{上|じょう}の{行|こう}{動|どう}を{実|じっ}{際|さい}に{行|おこな}うこと",
+      "explanation_en": "Used in rulebooks to instruct a player to carry out a specified action. Implies the action is resolved, not merely declared.",
+      "implicit_notes": "実行する emphasizes concrete execution rather than declaration or intent. In game rules, it marks the resolution step: a player 実行する (carries out) what they have declared.",
+      "orthography_notes": "実行: 実 (actual/real) + 行 (go/carry out). Standard Japanese verb. Weblio dictionary lists it as a general-purpose term used in both everyday and technical (software, game) contexts. Not WH-specific.",
+      "game_setting_notes": "Cross-genre applicable. In wargame rulebooks: '○○を実行する' (execute ○○) is the standard phrasing for rule resolution. Distinct from 宣言する (declare/announce an action)."
+    }
+  ],
+  "usage_jp": "{行|こう}{動|どう}を{実|じっ}{行|こう}する (execute an action); {突|とつ}{撃|げき}を{実|じっ}{行|こう}する (execute a charge)",
+  "usage_en": "\"perform\", \"execute\", \"carry out\".",
+  "comparative_notes": "宣言する (declare) is used when a player announces intent; 実行する is used when the action is actually resolved. Both appear in Japanese wargame rulebooks.",
+  "examples": [
+    {
+      "id": "00015_jikkou_suru_ex1",
+      "japanese": "{彼|かれ}は{計|けい}{画|かく}を{実|じっ}{行|こう}した。",
+      "english": "He carried out the plan.",
+      "source": "Tatoeba #290729",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00016_kougeki",
+      "note": "攻撃 — a common action that is 実行する'd"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

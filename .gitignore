@@ -1,0 +1,9 @@
+raw/
+content/
+public/
+node_modules/
+__pycache__/
+*.pyc
+.obsidian/
+.DS_Store
+.quartz-temp/

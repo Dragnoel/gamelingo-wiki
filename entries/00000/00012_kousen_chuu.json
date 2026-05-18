@@ -1,0 +1,70 @@
+{
+  "id": "00012_kousen_chuu",
+  "headword_jp": "{交|こう}{戦|せん}{中|ちゅう}",
+  "headword_en": "engaged in combat",
+  "reading": "こうせんちゅう",
+  "romaji": "kousen_chuu",
+  "kanji_form": "交戦中",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "接敵状態",
+      "reading": "せってきじょうたい",
+      "note": "⚠️ WH-specific: 接敵状態 is a WH-specific status term. Do not use as a substitute; 交戦中 is the safe alternative."
+    }
+  ],
+  "part_of_speech": "noun phrase / adjectival phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a status indicating that a unit is currently engaged in close combat with an enemy unit",
+      "gloss_jp": "{ユニット|ゆにっと}が{敵|てき}{ユニット|ゆにっと}と{近|きん}{接|せつ}{戦|せん}{闘|とう}を{行|おこな}っている{状|じょう}{態|たい}",
+      "explanation_en": "A game state that restricts a unit's available actions (typically preventing non-combat movement) until the engagement is resolved.",
+      "implicit_notes": "中 functions as a continuous-state suffix (〜している状態). 交戦中 is a standard Japanese diplomatic and military term meaning 'at war / engaged in combat'. Kotobank cites it in diplomatic/military context, independent of any game system.",
+      "orthography_notes": "交戦 (kousen): 交 (mutual/interact) + 戦 (battle). 中 (chuu) as a suffix: in the state of. A completely standard compound. JWC glossary attests combat engagement terms independently.",
+      "game_setting_notes": "In miniature wargames, 交戦中 is a game state (being in base contact or engagement range with an enemy). Distinguished from the WH-specific 接敵状態, which should be avoided."
+    }
+  ],
+  "usage_jp": "{交|こう}{戦|せん}{中|ちゅう}の{ユニット|ゆにっと}は{移|い}{動|どう}できない (engaged units cannot move)",
+  "usage_en": "\"engaged\", \"in combat\", \"engaged in close combat\".",
+  "comparative_notes": "接敵状態 (setteki joutai) is the WH Japan game status term and must be avoided. 交戦中 is a classical Japanese term safe for all uses.",
+  "examples": [
+    {
+      "id": "00012_kousen_chuu_ex1",
+      "japanese": "{交|こう}{戦|せん}{中|ちゅう}のユニットは{突|とつ}{撃|げき}{段|だん}{階|かい}に{移|い}{動|どう}できない。",
+      "english": "Engaged units cannot move during the charging phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00011_hakuheisen_dankai",
+      "note": "白兵戦段階 — the phase in which engaged units fight"
+    },
+    {
+      "type": "related",
+      "id": "00016_kougeki",
+      "note": "攻撃 — the action performed while 交戦中"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

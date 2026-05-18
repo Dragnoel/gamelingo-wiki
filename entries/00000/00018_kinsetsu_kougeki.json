@@ -1,0 +1,71 @@
+{
+  "id": "00018_kinsetsu_kougeki",
+  "headword_jp": "{近|きん}{接|せつ}{攻|こう}{撃|げき}",
+  "headword_en": "melee attack / contact attack",
+  "reading": "きんせつこうげき",
+  "romaji": "kinsetsu_kougeki",
+  "kanji_form": "近接攻撃",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "an attack performed in physical contact or at very short range with the target",
+      "gloss_jp": "{目|もく}{標|ひょう}と{接|せっ}{触|しょく}または{至|し}{近|きん}{距|きょ}{離|り}で{行|おこな}う{攻|こう}{撃|げき}",
+      "explanation_en": "An attack requiring the attacker to be adjacent to or in base contact with the target. Includes swords, axes, claws, and other hand-to-hand weapons.",
+      "implicit_notes": "近接 (close/adjacent) is a widely-used Japanese word across gaming, military, and everyday language. The compound is descriptive and not proprietary.",
+      "orthography_notes": "近接: 近 (near) + 接 (contact/touch). 攻撃: attack. Fire Emblem uses the 近接 vs. 遠距離 weapon distinction as a core mechanic. JWC documentation attests 近接 in wargame contexts. Not WH-specific.",
+      "game_setting_notes": "In miniature wargames, 近接攻撃 is resolved during the 白兵戦段階. In video games (SRPGs), 近接武器 (melee weapon) is a standard category."
+    }
+  ],
+  "usage_jp": "{近|きん}{接|せつ}{攻|こう}{撃|げき}を{宣|せん}{言|げん}する (declare a melee attack); {近|きん}{接|せつ}{武|ぶ}{器|き} (melee weapon)",
+  "usage_en": "\"melee attack\", \"close combat attack\", \"contact attack\".",
+  "comparative_notes": "遠距離攻撃 is the antonym. In Fire Emblem, 近接 and 遠距離 are the two primary weapon-range categories. In miniature wargames, 近接攻撃 occurs in the 白兵戦段階.",
+  "examples": [
+    {
+      "id": "00018_kinsetsu_kougeki_ex1",
+      "japanese": "{白|はく}{兵|へい}{戦|せん}{段|だん}{階|かい}に{近|きん}{接|せつ}{攻|こう}{撃|げき}を{実|じっ}{行|こう}する。",
+      "english": "Execute a melee attack during the fighting phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "id": "00017_enkyori_kougeki",
+      "note": "遠距離攻撃 — ranged attack"
+    },
+    {
+      "type": "hypernym",
+      "id": "00016_kougeki",
+      "note": "攻撃 — attack (general)"
+    },
+    {
+      "type": "related",
+      "id": "00011_hakuheisen_dankai",
+      "note": "白兵戦段階 — the phase in which melee attacks occur"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

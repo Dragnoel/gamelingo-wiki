@@ -1,0 +1,75 @@
+{
+  "id": "00032_kantsuu_ryoku",
+  "headword_jp": "{貫|かん}{通|つう}{力|りょく}",
+  "headword_en": "penetration / armour penetration",
+  "reading": "かんつうりょく",
+  "romaji": "kantsuu_ryoku",
+  "kanji_form": "貫通力",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "貫通値",
+      "reading": "かんつうち",
+      "note": "⚠️ WH: 貫通値 is used in WH40K Japan for the AP (Armour Penetration) stat value. The 値 (value) suffix mirrors WH datasheet layout. 貫通力 (power form) is recommended."
+    },
+    {
+      "form": "鎧通し",
+      "reading": "よろいとおし",
+      "note": "Classical native Japanese: 鎧通し (armour-piercing dagger). Evocative flavour option; historically a short blade designed to pierce armour gaps."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a stat representing a weapon's ability to pierce through a target's armour",
+      "gloss_jp": "{武|ぶ}{器|き}が{対|たい}{象|しょう}の{鎧|よろい}を{貫|かん}{通|つう}する{能|のう}{力|りょく}を{示|しめ}す{ステータス|すてーたす}",
+      "explanation_en": "A stat indicating how effectively a weapon defeats protective armour. Higher 貫通力 means the weapon ignores more of the target's defensive value.",
+      "implicit_notes": "⚠️ WH: 貫通値 is the WH40K Japan term for Armour Penetration (AP). The 値 suffix is WH's datasheet-value naming convention. 貫通力 uses the 力 suffix (capability/power) instead, avoiding the WH-specific form while retaining the same concept.",
+      "orthography_notes": "貫通: 貫 (pierce through) + 通 (pass through). 力 (ryoku): power/capacity as a stat suffix. 貫通 is a standard Japanese word for penetration (Goo dictionary). 貫通力 appears in military ballistics contexts independently of WH Japan. The WH Japan term is specifically 貫通値 (penetration value).",
+      "game_setting_notes": "⚠️ WH high-priority: 貫通値 is the exact WH40K Japan AP stat label. Recommended form: 貫通力 (penetrating power) to clearly distinguish from WH datasheet terminology."
+    }
+  ],
+  "usage_jp": "{貫|かん}{通|つう}{力|りょく}ステータス (penetration stat); {高|たか}い{貫|かん}{通|つう}{力|りょく}を{持|も}つ{武|ぶ}{器|き} (weapon with high penetration)",
+  "usage_en": "\"armour penetration\", \"penetration stat\", \"AP stat\".",
+  "comparative_notes": "貫通値 is WH Japan's specific term and should be avoided. 貫通力 achieves the same concept. 鎧通し is a historical flavour option suitable for non-stat flavour text.",
+  "examples": [
+    {
+      "id": "00032_kantsuu_ryoku_ex1",
+      "japanese": "{銃|じゅう}{弾|だん}はヘルメットを{貫|かん}{通|つう}した。",
+      "english": "A bullet pierced the helmet.",
+      "source": "Tatoeba #11746224",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00028_yoroi",
+      "note": "鎧 — armour; what 貫通力 defeats"
+    },
+    {
+      "type": "related",
+      "id": "00026_bougyo",
+      "note": "防御 — defense; modified by 貫通力"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "00035_tairyoku",
+  "headword_jp": "{体|たい}{力|りょく}",
+  "headword_en": "health points / stamina",
+  "reading": "たいりょく",
+  "romaji": "tairyoku",
+  "kanji_form": "体力",
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "傷",
+      "reading": "きず",
+      "note": "⚠️ WH-specific: WH40K Japan uses 傷 (wounds) as its HP mechanic, tracking wounds taken rather than a health total. Avoid 傷 as an HP synonym in non-WH contexts."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg",
+    "card"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a unit's total health points; the pool of vitality that is depleted by damage",
+      "gloss_jp": "{ユニット|ゆにっと}の{HP|えいちぴー}；ダメージで{減|へ}っていく{生|せい}{命|めい}{力|りょく}の{総|そう}{量|りょう}",
+      "explanation_en": "The numeric total of health a unit has. When depleted to zero, the unit is removed from play. The standard JP game term for HP across all genres.",
+      "implicit_notes": "体力 is the universal Japanese game term for HP, used for decades across all game genres. WH Japan uses 傷 (wounds) — a tracking-wounds-taken mechanic that should not be confused with a health-point total.",
+      "orthography_notes": "体力: 体 (body) + 力 (power/capacity). Weblio dictionary lists it as a general word. Used universally in Japanese games. WH Japan's 傷 (wound) mechanic is distinct and WH-specific.",
+      "game_setting_notes": "Universal across all Japanese game genres. The docx explicitly notes: WH Japan uses 傷 (wounds) for HP — this is WH-specific and should be avoided. 体力 is the safe, universal term."
+    }
+  ],
+  "usage_jp": "{体|たい}{力|りょく}が0になると{ユニット|ゆにっと}は{除|じょ}{去|きょ}される (when HP reaches 0, the unit is removed); {体|たい}{力|りょく}ゲージ (HP bar)",
+  "usage_en": "\"health points\", \"HP\", \"stamina\".",
+  "comparative_notes": "傷 (kizu, wound) is WH Japan's tracking mechanic and must be avoided in non-WH contexts. 体力 is the standard neutral Japanese HP term.",
+  "examples": [
+    {
+      "id": "00035_tairyoku_ex1",
+      "japanese": "{体|たい}{力|りょく}が0になったユニットは{戦|せん}{場|じょう}から{除|じょ}{去|きょ}される。",
+      "english": "Units whose HP reaches 0 are removed from the battlefield.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00027_taikyuu_ryoku",
+      "note": "耐久力 — resilience/toughness (reduces damage taken, distinct from HP total)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

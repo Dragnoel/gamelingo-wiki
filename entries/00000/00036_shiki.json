@@ -1,0 +1,59 @@
+{
+  "id": "00036_shiki",
+  "headword_jp": "{士|し}{気|き}",
+  "headword_en": "discipline / morale",
+  "reading": "しき",
+  "romaji": "shiki",
+  "kanji_form": "士気",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a morale or discipline stat representing a unit's willingness to keep fighting under pressure",
+      "gloss_jp": "{ユニット|ゆにっと}が{苦|く}{境|きょう}でも{戦|たたか}い{続|つづ}けようとする{意|い}{志|し}・{規|き}{律|りつ}を{示|しめ}す{ステータス|すてーたす}",
+      "explanation_en": "A stat or check representing unit morale. Units that fail discipline checks may flee, become disrupted, or suffer penalties. Wargame equivalent of the military concept of unit cohesion.",
+      "implicit_notes": "士気 is a classical Japanese military concept directly translating the military idea of troop morale or esprit de corps. Used in JWC documentation consistently.",
+      "orthography_notes": "士気: 士 (warrior/soldier) + 気 (spirit/energy). Classical Japanese military term for morale. Goo dictionary. JWC wargame glossary attests 士気 as the standard morale term. WH Japan uses 戦意フェイズ (battle-spirit phase) for the morale phase — 士気 is the underlying concept and not a WH term.",
+      "game_setting_notes": "Standard in board wargames and historical miniature wargames. JWC documentation uses 士気 for morale checks. WH Japan's 戦意フェイズ is a WH-specific phase label; 士気 itself is classical and independent."
+    }
+  ],
+  "usage_jp": "{士|し}{気|き}チェック (morale check); {士|し}{気|き}が{崩|くず}れる (morale breaks); {士|し}{気|き}テスト (discipline test)",
+  "usage_en": "\"discipline\", \"morale\", \"morale check\".",
+  "comparative_notes": "戦意フェイズ (WH Japan) uses 戦意 (battle will) as the morale concept; 士気 is the classical general term. 士気 is safe for all non-WH uses.",
+  "examples": [
+    {
+      "id": "00036_shiki_ex1",
+      "japanese": "でも、それで{士|し}{気|き}が{下|さ}がっては{本|ほん}{末|まつ}{転|てん}{倒|とう}ではないかと。",
+      "english": "But, if by that, morale drops, wouldn't that defeat the purpose?",
+      "source": "Tatoeba #328523",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00012_kousen_chuu",
+      "note": "交戦中 — engaged in combat; a state that often triggers 士気 checks"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

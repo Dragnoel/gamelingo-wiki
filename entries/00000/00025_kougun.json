@@ -1,0 +1,64 @@
+{
+  "id": "00025_kougun",
+  "headword_jp": "{行|こう}{軍|ぐん}",
+  "headword_en": "march",
+  "reading": "こうぐん",
+  "romaji": "kougun",
+  "kanji_form": "行軍",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun / verb stem",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "an extended movement action that allows a unit to move at greater distance at the cost of other actions",
+      "gloss_jp": "{通|つう}{常|じょう}より{長|なが}い{距|きょ}{離|り}の{移|い}{動|どう}が{許|ゆる}されるが、{他|た}の{行|こう}{動|どう}が{制|せい}{限|げん}される{行|こう}{動|どう}",
+      "explanation_en": "A movement action emphasizing distance over combat readiness. Units that march typically cannot attack in the same turn.",
+      "implicit_notes": "行軍 is a classical Japanese military term for troop movement over extended distances. The connotation is strategic movement (getting from A to B) rather than tactical engagement.",
+      "orthography_notes": "行軍: 行 (go/march) + 軍 (military unit/army). Classical Japanese military term documented in WWII-era writing. JWC board wargame glossary attests 行軍 as a standard term. Goo dictionary defines it as a general military word.",
+      "game_setting_notes": "In miniature wargames, 行軍 typically allows a unit to move farther (e.g., double movement distance) but prevents charging or shooting in the same turn. Occurs in the 移動段階."
+    }
+  ],
+  "usage_jp": "{行|こう}{軍|ぐん}する (to march); {行|こう}{軍|ぐん}した{ユニット|ゆにっと}は{射|しゃ}{撃|げき}できない (units that marched cannot shoot)",
+  "usage_en": "\"march\", \"force march\".",
+  "comparative_notes": "前進 (advance) is the shorter tactical movement. 行軍 is the extended strategic movement with associated restrictions.",
+  "examples": [
+    {
+      "id": "00025_kougun_ex1",
+      "japanese": "{行|こう}{軍|ぐん}したユニットは{射|しゃ}{撃|げき}{段|だん}{階|かい}に{攻|こう}{撃|げき}できない。",
+      "english": "Units that marched cannot attack during the shooting phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00024_zenshin",
+      "note": "前進 — advance (shorter movement, contrasted with 行軍)"
+    },
+    {
+      "type": "related",
+      "id": "00009_idou_dankai",
+      "note": "移動段階 — the phase in which 行軍 occurs"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

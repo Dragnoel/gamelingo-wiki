@@ -1,0 +1,87 @@
+{
+  "id": "00007_feezu",
+  "headword_jp": "フェイズ",
+  "headword_en": "phase",
+  "reading": "フェイズ",
+  "romaji": "feezu",
+  "kanji_form": null,
+  "katakana_form": "フェイズ",
+  "alt_forms": [
+    {
+      "form": "段階",
+      "reading": "だんかい",
+      "note": "Native Japanese equivalent. Recommended in miniature wargames to avoid exact compounds used in WH Japan rulebooks."
+    },
+    {
+      "form": "局面",
+      "reading": "きょくめん",
+      "note": "Alternative native-Japanese phase-word; carries nuance of a turning point or critical stage."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a defined subdivision of a turn or round during which specific actions occur",
+      "gloss_jp": "{手|て}{番|ばん}や{ラウンド|らうんど}を{分|わ}けた{段|だん}{階|かい}；{特|とく}{定|てい}の{行|こう}{動|どう}が{許|ゆる}される{時|じ}{間|かん}の{区|く}{切|き}り",
+      "explanation_en": "A structural subdivision of play time. Each phase constrains which actions are legal. Phases execute sequentially within a turn.",
+      "implicit_notes": "フェイズ alone is low-risk as IP (it is simply the English loanword 'phase'). The risk arises with specific compounds: 突撃フェイズ, 射撃フェイズ, 白兵戦フェイズ, 移動フェイズ are the exact named phase terms used in WH40K Japan and AoS Japan rulebooks.",
+      "orthography_notes": "Katakana loanword from English 'phase'. フェイズ alone is used independently in Fire Emblem Japan (自軍フェイズ, 敵軍フェイズ) and Famicom Wars (発動フェイズ), predating WH Japan usage. 段階 (native compound: stage/step) is the recommended neutral alternative for phase-type compounds in this wargame project.",
+      "game_setting_notes": "In video games (SRPGs): 自軍フェイズ (player phase) / 敵軍フェイズ (enemy phase) is the Fire Emblem standard. In miniature wargames: using 段階 instead of フェイズ in phase-type compounds avoids WH Japan terminology."
+    }
+  ],
+  "usage_jp": "{自|じ}{軍|ぐん}フェイズ (player phase, Fire Emblem); {突|とつ}{撃|げき}{段|だん}{階|かい} (charging phase, recommended wargame form)",
+  "usage_en": "\"phase\" as a structural turn subdivision.",
+  "comparative_notes": "段階 (dankai) is the recommended substitute in miniature wargame compounds. 局面 (kyokumen) implies a broader situational shift and is less common as a phase-label word. See individual phase entries (00008–00011) for each phase type.",
+  "examples": [
+    {
+      "id": "00007_feezu_ex1",
+      "japanese": "{自|じ}{軍|ぐん}フェイズに{移|い}{動|どう}する。",
+      "english": "Move during the player phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00008_totsugeki_dankai",
+      "note": "突撃段階 — charging phase (段階 compound)"
+    },
+    {
+      "type": "related",
+      "id": "00009_idou_dankai",
+      "note": "移動段階 — moving phase (段階 compound)"
+    },
+    {
+      "type": "related",
+      "id": "00010_shageki_dankai",
+      "note": "射撃段階 — shooting phase (段階 compound)"
+    },
+    {
+      "type": "related",
+      "id": "00011_hakuheisen_dankai",
+      "note": "白兵戦段階 — fighting phase (段階 compound)"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

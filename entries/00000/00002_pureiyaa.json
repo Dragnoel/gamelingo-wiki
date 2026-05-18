@@ -1,0 +1,73 @@
+{
+  "id": "00002_pureiyaa",
+  "headword_jp": "プレイヤー",
+  "headword_en": "player",
+  "reading": "プレイヤー",
+  "romaji": "pureiyaa",
+  "kanji_form": null,
+  "katakana_form": "プレイヤー",
+  "alt_forms": [
+    {
+      "form": "選手",
+      "reading": "せんしゅ",
+      "note": "Sports-register equivalent; sounds too athletic for board/miniature wargame contexts."
+    }
+  ],
+  "part_of_speech": "noun",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "video",
+    "card",
+    "ttrpg"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a person taking part in a game; the human decision-maker behind a side",
+      "gloss_jp": "ゲームに参加する人；陣営を操作する人間",
+      "explanation_en": "The agent controlling one side in a game. Distinct from in-game characters or units, which are what the player controls.",
+      "implicit_notes": "In miniature wargames, プレイヤー refers to the person, not their army. Rulebooks use it to address the reader directly.",
+      "orthography_notes": "Katakana loanword from English 'player'. No standard kanji form exists in the gaming sense. The docx notes 選手 (athlete) as an inappropriate substitute.",
+      "game_setting_notes": "Universal across all Japanese game genres. Warhammer Japan also uses it but did not originate the term. Fire Emblem (Nintendo, 1990–present) and Famicom Wars (Nintendo, 1988–present) use it independently."
+    }
+  ],
+  "usage_jp": "プレイヤーは{手|て}{番|ばん}に{行|こう}{動|どう}する (the player acts on their turn); {手|て}{番|ばん}プレイヤー (active player)",
+  "usage_en": "\"the player\" or \"you\" when rulebooks address the reader.",
+  "comparative_notes": "選手 is the correct word in sports contexts but reads as too competitive and physical for tabletop usage. プレイヤー is the universally accepted loanword.",
+  "examples": [
+    {
+      "id": "00002_pureiyaa_ex1",
+      "japanese": "{手|て}{番|ばん}プレイヤーが{行|こう}{動|どう}を{選|えら}ぶ。",
+      "english": "The active player chooses an action.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00005_teban_pureiyaa",
+      "note": "手番プレイヤー — the active player compound"
+    },
+    {
+      "type": "related",
+      "id": "00006_hi_teban_pureiyaa",
+      "note": "非手番プレイヤー — the reactive player compound"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

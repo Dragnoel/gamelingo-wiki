@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+
+  "permissions": {
+    "defaultMode": "default",
+    "disableBypassPermissionsMode": "disable",
+    "deny": [
+      "Edit(./raw/**)",
+      "Write(./raw/**)",
+      "Edit(./references.bib)",
+      "Write(./references.bib)",
+      "Edit(./CLAUDE.md)",
+      "Edit(./guides/**)",
+      "Edit(./build/**)",
+      "Write(./build/**)",
+      "Edit(./wiki/terms/**)",
+      "Bash(chmod *)",
+      "Bash(chflags *)",
+      "Bash(rm *)",
+      "Bash(mv *)",
+      "Bash(git push *)",
+      "Bash(sudo *)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ],
+    "allow": [
+      "Read(./raw/**)",
+      "Read(./entries/**)",
+      "Write(./entries/**)",
+      "Edit(./entries/**)",
+      "Read(./entries_index.json)",
+      "Write(./entries_index.json)",
+      "Edit(./entries_index.json)",
+      "Read(./build/**)",
+      "Read(./wiki/**)",
+      "Write(./wiki/**)",
+      "Edit(./wiki/**)",
+      "Read(./queries/**)",
+      "Write(./queries/**)",
+      "Edit(./queries/**)",
+      "Read(./guides/**)",
+      "Read(./CLAUDE.md)",
+      "Read(./references.bib)",
+      "Read(./PROJECT_STATUS.md)",
+      "Write(./PROJECT_STATUS.md)",
+      "Edit(./PROJECT_STATUS.md)",
+      "Read(./PROJECT_CONTEXT_BRIEF.md)",
+      "Write(./PROJECT_CONTEXT_BRIEF.md)",
+      "Edit(./PROJECT_CONTEXT_BRIEF.md)",
+      "Bash(ls *)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(python3 build/*)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ]
+  },
+
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": false,
+    "filesystem": {
+      "denyRead": ["~/"],
+      "allowRead": ["."]
+    }
+  },
+
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/protect_raw.py"
+          }
+        ]
+      }
+    ]
+  }
+}

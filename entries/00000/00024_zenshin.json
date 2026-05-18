@@ -1,0 +1,64 @@
+{
+  "id": "00024_zenshin",
+  "headword_jp": "{前|ぜん}{進|しん}",
+  "headword_en": "advance",
+  "reading": "ぜんしん",
+  "romaji": "zenshin",
+  "kanji_form": "前進",
+  "katakana_form": null,
+  "alt_forms": [],
+  "part_of_speech": "noun / verb stem",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "a movement action in which a unit moves forward toward the enemy",
+      "gloss_jp": "{ユニット|ゆにっと}が{敵|てき}{方|がた}向に{移|い}{動|どう}する{行|こう}{動|どう}",
+      "explanation_en": "A standard movement action. Distinct from 行軍 (march), which implies a longer-distance strategic move. In some rulesets, 前進 is a specific action with a defined move distance.",
+      "implicit_notes": "前進 is a classical Japanese military command meaning 'forward march' or 'advance'. It carries the connotation of deliberate, goal-directed movement toward the enemy rather than repositioning.",
+      "orthography_notes": "前進: 前 (forward/front) + 進 (advance/proceed). Goo dictionary military definition. JWC wargame movement documentation attests 前進 as a standard movement term. WH Japan uses 全力移動 for the Advance action — 前進 is therefore independent.",
+      "game_setting_notes": "In miniature wargames, 前進 is typically a shorter advance move (as opposed to 行軍, which allows more distance but restricts other actions). Occurs in the 移動段階."
+    }
+  ],
+  "usage_jp": "{前|ぜん}{進|しん}する (to advance); {前|ぜん}{進|しん}を{宣|せん}{言|げん}する (declare an advance)",
+  "usage_en": "\"advance\", \"move forward\".",
+  "comparative_notes": "行軍 (kougun, march) implies longer strategic movement at the cost of other actions. 前進 is the shorter tactical advance. WH Japan uses 全力移動 for a comparable action, so 前進 is an independent term.",
+  "examples": [
+    {
+      "id": "00024_zenshin_ex1",
+      "japanese": "{彼|かれ}らは{川|かわ}まで{前|ぜん}{進|しん}した。",
+      "english": "They advanced to the river.",
+      "source": "Tatoeba #307016",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "id": "00025_kougun",
+      "note": "行軍 — march (longer movement, contrasted with 前進)"
+    },
+    {
+      "type": "related",
+      "id": "00009_idou_dankai",
+      "note": "移動段階 — the phase in which 前進 occurs"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}

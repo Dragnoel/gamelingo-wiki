@@ -1,0 +1,71 @@
+{
+  "id": "00005_teban_pureiyaa",
+  "headword_jp": "{手|て}{番|ばん}プレイヤー",
+  "headword_en": "active player",
+  "reading": "てばんプレイヤー",
+  "romaji": "teban_pureiyaa",
+  "kanji_form": null,
+  "katakana_form": null,
+  "alt_forms": [
+    {
+      "form": "ターンプレイヤー",
+      "reading": "たーんプレイヤー",
+      "note": "Loanword-based equivalent. Wikipedia Japan (ターン (ゲーム)) cites ターンプレイヤー as a standard form."
+    }
+  ],
+  "part_of_speech": "noun phrase",
+  "register": [
+    "in-game",
+    "rulebook"
+  ],
+  "domain": [
+    "board",
+    "card"
+  ],
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss_en": "the player whose turn it currently is; the active player",
+      "gloss_jp": "その{時点|じてん}で{手|て}{番|ばん}を{持|も}つプレイヤー",
+      "explanation_en": "Designates which player is currently empowered to take actions. Used in rulebook instructions to direct commands at the player whose turn is running.",
+      "implicit_notes": "The compound foregrounds whose obligation it is to act, not merely whose right. Contrasts structurally with 非手番プレイヤー.",
+      "orthography_notes": "Compound of native Japanese 手番 + katakana loanword プレイヤー. The mixed script is conventional in modern Japanese game rulebooks. No pure-kanji or pure-katakana equivalent is established.",
+      "game_setting_notes": "Primarily board game and card game usage. Wikipedia Japan confirms ターンプレイヤー as a standard board game term; 手番プレイヤー is the preferred native-compound form."
+    }
+  ],
+  "usage_jp": "{手|て}{番|ばん}プレイヤーは～を{行|おこな}う (the active player performs ～)",
+  "usage_en": "\"active player\" is the standard English equivalent in rulebook prose.",
+  "comparative_notes": "ターンプレイヤー is equally acceptable and may be preferred in contexts using ターン rather than 手番 as the turn-word throughout.",
+  "examples": [
+    {
+      "id": "00005_teban_pureiyaa_ex1",
+      "japanese": "{手|て}{番|ばん}プレイヤーは{移|い}{動|どう}{段|だん}{階|かい}を{開|かい}{始|し}する。",
+      "english": "The active player begins the moving phase.",
+      "source": "raw/Claude-generated-wargame_translation_reference.docx",
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "id": "00006_hi_teban_pureiyaa",
+      "note": "非手番プレイヤー — the reactive / non-active player"
+    },
+    {
+      "type": "related",
+      "id": "00004_teban",
+      "note": "手番 — the turn concept itself"
+    }
+  ],
+  "sources": [
+    "claude-2026-wargame-translation-ref"
+  ],
+  "metadata": {
+    "created": "2026-05-18T00:00:00Z",
+    "modified": "2026-05-18T12:00:00Z",
+    "furigana_verified": true,
+    "reviewed": false
+  }
+}
