@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     // Set this to your GitHub Pages URL once you have created the repo:
     // e.g. "yourusername.github.io/gaming-language"
-    baseUrl: "www.lenslanding.com/gamelingo-wiki",
+    baseUrl: "dragnoel.github.io/gamelingo-wiki",
     // Exclude internal agent files and Obsidian workspace config
     ignorePatterns: [
       "_review*",
